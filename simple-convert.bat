@@ -1,7 +1,6 @@
 @echo off
 
-set input=%1
-set format=%2
-set output=%~n1.%format%
+set "input=%~1"
+set "format=%2"
 
-ffmpeg -i %input% %output%
+ffmpeg -i "%input%" "%~dpn1.%format%"
