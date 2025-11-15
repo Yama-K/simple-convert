@@ -1,8 +1,10 @@
-# simple-convert
-Easily convert files to a format you'd like
+### simple-convert
+## Easily convert files to a format you'd like
 
-Example usage: simple-convert.bat input.webp png (This will result to your webp converted to your specified format of your choice, keeping the same filename)
+Example usage: ```simple-convert.bat input.webp png```
 
-To convert in batch, do: simple-convert.bat * png
+```simple-convert.bat``` -> ```input.file``` -> ```file type``` = Converted to file type specified. File type goes at the very end.
+
+To convert in batch, do: ```simple-convert.bat * png```
 
 Depencies: [FFMPEG](https://ffmpeg.org/)
